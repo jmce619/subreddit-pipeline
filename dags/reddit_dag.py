@@ -21,9 +21,3 @@ with DAG(dag_id="subreddit_dag",schedule_interval="@daily",default_args=default_
 
 
 	subreddit_scrape>>data_clean_storing>>storing_posts>>loading_posts
-	
-
-
-
-
-
