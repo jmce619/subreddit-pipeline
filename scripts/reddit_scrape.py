@@ -1,5 +1,5 @@
 
-LOCAL_DIR='/tmp/'
+LOCAL_DIR='/home/airflow'
 def main():
     SUBFIELDS = ['title', 'subreddit', 'created_utc', 'author', 'num_comments', 'score','url']
     # establish base url and stem
